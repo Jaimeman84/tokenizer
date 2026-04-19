@@ -206,6 +206,9 @@ export default function Home() {
       <footer className="border-t border-gray-200 bg-white px-6 py-4">
         <div className="mx-auto max-w-7xl flex flex-wrap items-center justify-between gap-2 text-xs text-gray-400">
           <p>Educational tokenizer · Powered by tiktoken</p>
+          <p className="text-center sm:text-left">
+            Made with ❤️ by <span className="font-medium text-gray-500">Jaime Mantilla, MSIT + AI</span>
+          </p>
           <p>Text is processed server-side and never stored.</p>
         </div>
       </footer>
